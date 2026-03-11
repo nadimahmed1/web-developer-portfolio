@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* shared styles */
+    .secondary-bg{
+        background-color:  #FFF8F3;
+    }
     .text-primary{
         color: #FD6E0A;
     }
@@ -22,9 +25,20 @@
         border-radius: 5px;
         border: none;
     }
+    .section-title{
+        font-size: 35px;
+        font-weight: bold;
+        color: #181818;
+    }
+    .section-description{
+        font-size: 18px;
+        color: #757575;
+    }
     /* Header styles */
     .header{
         background-image: url('../images/developer.png'), url('../images/header_bg.png');
+        margin-left: 23px;
+        margin-top: 38px;
         background-repeat: no-repeat;
         background-position: top left, bottom right;
     }
@@ -58,7 +72,8 @@ nav li a{
     margin: 0 35px 0 100px;
 }
 .banner-content{
-    max-width: 585px;
+    max-width: 550px;
+    margin-left: 70px;
 }
 .banner-greetings{
     font-weight: 600;
@@ -74,4 +89,28 @@ nav li a{
 }
 .banner-profile-pic{
     width: 550px;
+}
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.about-content{
+    border: 1px solid black;
+    padding: 5px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
